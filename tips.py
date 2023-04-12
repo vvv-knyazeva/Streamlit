@@ -8,7 +8,7 @@ import plotly_express as px
 st.header('Чаевые в ресторане  💁‍♀️')
 st.write('#### Данные о посетителях в ресторане')
 
-tips = pd.read_csv('/home/viktoria/Streamlit/tips.csv')
+tips = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv')
 sea_tips = sns.load_dataset('tips')
 st.dataframe(sea_tips)
 
